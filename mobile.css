@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 767px)  {
+    .taco{
+        flex: 100%;
+    }
+    .taco h1{
+        font-size: 1.3em;
+    }
+    .taco p{
+        font-size: 1em;
+    }
+
+    .taco-pay{
+        flex: 100%;
+
+    }
+    .price{
+        display: flex;
+        flex-direction: row;
+        flex: 100%;
+    }
+    .price-1{
+        
+        flex: 0 0 100%;
+    }
+    .price-2{
+       
+        flex: 0 0  100%;
+    }
+    /* .features ul{
+        flex-direction: column;
+    } */
+    .features ul li{
+        flex: 0 0 45%;
+    }
+   
+   
+    .about{
+        text-align: center;
+    }
+    .about img{
+        margin: 0 auto;
+}
+/* footer h3{
+    width: 100%;
+    font-size: 1.3em;
+}
+footer h3:before{
+    width: 30%;
+}
+footer h3:after{
+    width: 30%;
+} */
+}
+
+@media screen and (max-width: 580px) {
+    .taco{
+        flex: 100%;         
+    }
+    .taco h1{
+        font-size: 1em;
+    }
+    .taco p{
+        font-size: .9em;
+    }
+    .price{
+        display: flex;
+        flex-direction: row;
+        /* flex: 100%; */
+    }
+   
+    nav ul li {
+        flex: 0 0 98%;
+        text-align: center;
+        margin: 1%;
+    }
+    .features ul li{
+        flex: 0 0 98%;
+    }
+    .about{
+        text-align: center;
+    }
+    .about img{
+        margin: 0 auto;
+
+}
+}

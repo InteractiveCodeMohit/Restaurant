@@ -1,0 +1,298 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+body{
+    background: linear-gradient(180deg,#f93d66, #6d47d9);
+
+    /* background: radial-gradient(#9da2d7, #4a2f66, #93b2e1ab); */
+}
+.main-container{
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+.taco-joint{
+width: 100%;
+display: flex;
+padding-top: 30px;
+justify-content: space-around;
+flex: 100%;
+padding-bottom: 20px;
+flex-wrap: wrap;
+}
+.taco{
+    flex: 0 0 60%;
+    margin: 1%;
+    position: relative;
+}
+.taco img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    height: auto;
+}
+.taco h1{
+    position: absolute;
+    top: 50%;
+    background: #ffc600;
+    transform: translateY(-50%);
+    left: 30px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.taco p{
+    position: absolute;
+    top: 70%;
+    background: #ffc600;
+    transform: translateY(-35%);
+    left: 30px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.1em; ;
+}
+
+
+/* .taco-pay start */
+
+.taco-pay{
+    /* border: 2px solid blue; */
+    flex: 0 0  36%;
+    margin: 1%;
+    width: 100%;
+    display: flex;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.price-1{
+    background-color: #ffc600;
+    text-align: center;
+    font-size: 3em;
+    padding: 23px;
+    margin-bottom: 3%;
+    flex: 0 0 45%;
+    font-weight: 300;
+    
+}
+
+.price-2{
+    background-color: #ffc600;
+    text-align: center;
+    font-size: 3em;
+    padding: 23px;
+    flex: 0 0 46%;
+    margin-top: 4%;
+    font-weight: 300;
+    
+}
+
+ .price-1 strong{
+display: block;
+font-size: 0.5em;
+
+}
+ .price-2 strong{
+display: block;
+font-size: 0.5em;
+
+}
+
+
+/* .taco-pay  End   */
+
+/* NaV Start  */
+
+
+nav{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+    flex: 100%;
+}
+ nav ul li {
+    flex: 0 0 17%;
+    margin: 1%;
+    list-style: none;
+    background-color: #ffc600;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    
+ }
+ nav ul li a{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+ }
+
+/* NaV ENDs */
+
+/* Features Sections start*/
+
+.features{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+.features ul li{
+    flex: 0 0 22%;
+    margin: 1%;
+    list-style: none;
+    text-align: center;
+
+}
+
+.features ul li .feature{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.features ul li .feature .icon img{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.features ul li .feature .icon img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    
+}
+.features ul li .feature p{
+    padding: 7px;
+}
+
+/* Features Sections Ends*/
+
+/* About section start */
+.about-s{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about img{
+    max-width: 400px;
+    height: auto;
+    padding: 25px;
+    width: 100%;
+}
+.about .ab-feature{
+    display: block;
+    padding: 50px;
+    font-size: 1.5em;
+}
+button{
+    border: none;
+    background-color: #ffc600;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* About section End */
+
+/* Footer start */
+/* .footer{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+} */
+footer{
+   display: flex;
+     width: 100%;
+   max-width: 1360px;
+   margin: 0 auto;
+   flex-direction: column;
+}
+.fod{
+    flex: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+footer .fod h3{
+    color: #ffffff;
+     margin: 2%;
+    position: relative;
+    text-align: center;
+    /* font-size: 1.3em; */
+    width: 100%;
+
+
+    /* grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+    align-items: center; */
+    
+}
+footer .fod h3:before{
+    display: block;
+    content: "";
+    background:linear-gradient(to right, rgba(255,0,0,0),  rgb(255 198 0));
+    position: absolute;
+    left: 0px;
+    width: 44%;
+    height: 10px;
+    top: 7px;
+}
+
+footer h3:after{
+    display: block;
+    content: "";
+    background: linear-gradient(to left, rgba(255,0,0,0), rgb(255 198 0));
+    position: absolute;
+    right: 0px;
+    width: 44%;
+    height: 10px;
+    top: 7px;
+
+}
+
+
+/* Footer ends */
